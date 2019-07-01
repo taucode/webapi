@@ -11,6 +11,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.WebApi", "src\TauCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.WebApi.Test", "test\TauCode.WebApi.Test\TauCode.WebApi.Test.csproj", "{E3F3600C-A2DA-4C4B-8D21-5F4D7D817D6B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{6B9F6990-3C9F-4992-9366-E4BB02259FC5}"
+	ProjectSection(SolutionItems) = preProject
+		misc\changelog.txt = misc\changelog.txt
+		misc\todo.txt = misc\todo.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{A9F170F8-DB43-4A11-86C2-4628048614B8}"
+	ProjectSection(SolutionItems) = preProject
+		nuget\TauCode.WebApi.nuspec = nuget\TauCode.WebApi.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
