@@ -1,12 +1,12 @@
 ﻿namespace TauCode.WebApi
 {
-    public class ErrorResponseDto
+    public class ErrorDto
     {
-        public ErrorResponseDto()
+        public ErrorDto()
         {   
         }
 
-        public ErrorResponseDto(string code, string message)
+        public ErrorDto(string code, string message)
         {
             this.Code = code;
             this.Message = message;
