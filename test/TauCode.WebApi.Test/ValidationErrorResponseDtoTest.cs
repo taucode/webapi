@@ -11,20 +11,17 @@ namespace TauCode.WebApi.Test
         public void Deserialize_NoArguments_DeserializesAsExpected()
         {
             // Arrange
-            var validationErrorResponse = new ValidationErrorResponseDto
+            var validationErrorResponse = ValidationErrorDto.CreateStandard("Foo validation error");
+            validationErrorResponse.Failures = new Dictionary<string, ValidationFailureDto>
             {
-                Message = "Foo validation error",
-                Failures = new Dictionary<string, ValidationFailureDto>
-                {
-                    { "age", new ValidationFailureDto("bad_age", "Age must be positive") },
-                }
+                {"age", new ValidationFailureDto("bad_age", "Age must be positive")},
             };
 
-            validationErrorResponse.WithValidationError("weight", "bad_weight", "Too thin");
+            validationErrorResponse.AddFailure("weight", "bad_weight", "Too thin");
 
             // Act
             var json = JsonConvert.SerializeObject(validationErrorResponse);
-            var deserialized = JsonConvert.DeserializeObject<ValidationErrorResponseDto>(json);
+            var deserialized = JsonConvert.DeserializeObject<ValidationErrorDto>(json);
 
             // Assert
             Assert.That(deserialized.Code, Is.EqualTo("ValidationError"));

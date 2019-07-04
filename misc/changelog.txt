@@ -1,3 +1,7 @@
 2019-07-01
 ==========
-    1. Built for .NET Standard
+    1. Ported to .NET Standard.
+
+2019-07-04
+==========
+    1. Added DTO-s for CRUD.

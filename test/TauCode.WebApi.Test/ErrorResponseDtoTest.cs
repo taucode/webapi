@@ -10,7 +10,7 @@ namespace TauCode.WebApi.Test
         public void Serialize_NoArguments_SerializesCorrectly()
         {
             // Arrange
-            var response = new ErrorResponseDto
+            var response = new ErrorDto
             {
                 Code = "some_code",
                 Message = "Some message"
