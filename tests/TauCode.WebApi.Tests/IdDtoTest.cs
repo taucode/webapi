@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using System;
 
-namespace TauCode.WebApi.Test
+namespace TauCode.WebApi.Tests
 {
     [TestFixture]
     public class IdDtoTest

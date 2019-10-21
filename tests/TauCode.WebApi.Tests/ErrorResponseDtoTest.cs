@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using NUnit.Framework;
 
-namespace TauCode.WebApi.Test
+namespace TauCode.WebApi.Tests
 {
     [TestFixture]
     public class ErrorResponseDtoTest
