@@ -10,7 +10,7 @@
 ==========
     1. Release v3.0.
 
-2019-10-20
+2019-10-29
 ==========
-    Release v3.0.1.
+    Release v3.1.
     1. Simplified API.
