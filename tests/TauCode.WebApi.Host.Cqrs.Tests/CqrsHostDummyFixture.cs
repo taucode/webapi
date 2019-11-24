@@ -6,7 +6,7 @@ namespace TauCode.WebApi.Host.Cqrs.Tests
     public class CqrsHostDummyFixture
     {
         [Test]
-        public void DummyTest()
+        public void CqrsHostDummyTest()
         {
             Assert.Pass("Passed for Jenkins.");
         }

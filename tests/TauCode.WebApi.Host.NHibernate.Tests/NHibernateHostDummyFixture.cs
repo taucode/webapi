@@ -6,7 +6,7 @@ namespace TauCode.WebApi.Host.NHibernate.Tests
     public class NHibernateHostDummyFixture
     {
         [Test]
-        public void DummyTest()
+        public void NHibernateHostDummyTest()
         {
             Assert.Pass("Passed for Jenkins.");
         }
