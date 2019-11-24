@@ -7,7 +7,6 @@ using NHibernate.Cfg;
 using System;
 using System.Reflection;
 using TauCode.Domain.NHibernate.Conventions;
-using ISession = Microsoft.AspNetCore.Http.ISession;
 
 namespace TauCode.WebApi.Host.NHibernate
 {
