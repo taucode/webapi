@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.WebApi.Host.NHibernate</id>
-    <version>4.0-dev-2019-11-24-17-34</version>
+    <version>4.0</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -12,14 +12,14 @@
       NHibernate support for TauCode Web API host
     </description>
     <releaseNotes>
-      Initial version.
+      1. Solutions reorganized.
     </releaseNotes>
     <tags>taucode webapi host nhibernate</tags>
     <dependencies>
       <dependency id="FluentNHibernate" version="2.1.2" />
       <dependency id="Inflector.NetStandard" version="1.2.2" />
-      <dependency id="TauCode.Domain.NHibernate" version="4.0.0-dev-2019-24-11-13-43" />
-      <dependency id="TauCode.WebApi.Host" version="4.0.0-dev-2019-11-24-15-23" />
+      <dependency id="TauCode.Domain.NHibernate" version="4.0.0" />
+      <dependency id="TauCode.WebApi.Host" version="4.0.0" />
     </dependencies>
   </metadata>
   <files>
