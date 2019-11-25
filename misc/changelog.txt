@@ -14,3 +14,8 @@
 ==========
     Release v3.1.
     1. Simplified API.
+
+2019-11-25
+==========
+    Version: 4.0
+    1. Solutions reorganized.
