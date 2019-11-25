@@ -17,10 +17,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{6B9F6990-3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{A9F170F8-DB43-4A11-86C2-4628048614B8}"
 	ProjectSection(SolutionItems) = preProject
+		nuget\TauCode.WebApi.Client.nuspec = nuget\TauCode.WebApi.Client.nuspec
+		nuget\TauCode.WebApi.Host.Cqrs.nuspec = nuget\TauCode.WebApi.Host.Cqrs.nuspec
+		nuget\TauCode.WebApi.Host.NHibernate.nuspec = nuget\TauCode.WebApi.Host.NHibernate.nuspec
+		nuget\TauCode.WebApi.Host.nuspec = nuget\TauCode.WebApi.Host.nuspec
 		nuget\TauCode.WebApi.nuspec = nuget\TauCode.WebApi.nuspec
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Tests", "tests\TauCode.WebApi.Tests\TauCode.WebApi.Tests.csproj", "{6EDE0BB1-D914-4BF7-B63C-BF815F433E71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Client", "src\TauCode.WebApi.Client\TauCode.WebApi.Client.csproj", "{ECE3D119-1261-4395-A643-A1D60D4E0367}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Host", "src\TauCode.WebApi.Host\TauCode.WebApi.Host.csproj", "{D1169ACE-8463-4DD6-AEE1-7E7D686A1BEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Host.NHibernate", "src\TauCode.WebApi.Host.NHibernate\TauCode.WebApi.Host.NHibernate.csproj", "{3B913BB5-A15C-43F9-8DD3-581D833E0BC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Host.Cqrs", "src\TauCode.WebApi.Host.Cqrs\TauCode.WebApi.Host.Cqrs.csproj", "{C0B1EE32-9A4F-4094-8F2A-F579023A2B58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Client.Tests", "tests\TauCode.WebApi.Client.Tests\TauCode.WebApi.Client.Tests.csproj", "{3C6FC701-1BF2-46BB-92BD-BD5753275A1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Host.Tests", "tests\TauCode.WebApi.Host.Tests\TauCode.WebApi.Host.Tests.csproj", "{7557FAD1-24B2-4A32-8915-F2FEBAEF3A4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Host.Cqrs.Tests", "tests\TauCode.WebApi.Host.Cqrs.Tests\TauCode.WebApi.Host.Cqrs.Tests.csproj", "{F7A6C801-9CA8-4280-98F5-D1158B3642F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Host.NHibernate.Tests", "tests\TauCode.WebApi.Host.NHibernate.Tests\TauCode.WebApi.Host.NHibernate.Tests.csproj", "{14C548B8-04C1-450E-8771-FF9D586E868C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TauCode.WebApi.Client.Tests.App", "tests\TauCode.WebApi.Client.Tests.App\TauCode.WebApi.Client.Tests.App.csproj", "{BCF7A82B-BD47-439B-A1D3-3D2F06271EA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +58,42 @@ Global
 		{6EDE0BB1-D914-4BF7-B63C-BF815F433E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EDE0BB1-D914-4BF7-B63C-BF815F433E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EDE0BB1-D914-4BF7-B63C-BF815F433E71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE3D119-1261-4395-A643-A1D60D4E0367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE3D119-1261-4395-A643-A1D60D4E0367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE3D119-1261-4395-A643-A1D60D4E0367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE3D119-1261-4395-A643-A1D60D4E0367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1169ACE-8463-4DD6-AEE1-7E7D686A1BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1169ACE-8463-4DD6-AEE1-7E7D686A1BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1169ACE-8463-4DD6-AEE1-7E7D686A1BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1169ACE-8463-4DD6-AEE1-7E7D686A1BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B913BB5-A15C-43F9-8DD3-581D833E0BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B913BB5-A15C-43F9-8DD3-581D833E0BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B913BB5-A15C-43F9-8DD3-581D833E0BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B913BB5-A15C-43F9-8DD3-581D833E0BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B1EE32-9A4F-4094-8F2A-F579023A2B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B1EE32-9A4F-4094-8F2A-F579023A2B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B1EE32-9A4F-4094-8F2A-F579023A2B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B1EE32-9A4F-4094-8F2A-F579023A2B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6FC701-1BF2-46BB-92BD-BD5753275A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6FC701-1BF2-46BB-92BD-BD5753275A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6FC701-1BF2-46BB-92BD-BD5753275A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6FC701-1BF2-46BB-92BD-BD5753275A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7557FAD1-24B2-4A32-8915-F2FEBAEF3A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7557FAD1-24B2-4A32-8915-F2FEBAEF3A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7557FAD1-24B2-4A32-8915-F2FEBAEF3A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7557FAD1-24B2-4A32-8915-F2FEBAEF3A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A6C801-9CA8-4280-98F5-D1158B3642F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A6C801-9CA8-4280-98F5-D1158B3642F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A6C801-9CA8-4280-98F5-D1158B3642F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A6C801-9CA8-4280-98F5-D1158B3642F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C548B8-04C1-450E-8771-FF9D586E868C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C548B8-04C1-450E-8771-FF9D586E868C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C548B8-04C1-450E-8771-FF9D586E868C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C548B8-04C1-450E-8771-FF9D586E868C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF7A82B-BD47-439B-A1D3-3D2F06271EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF7A82B-BD47-439B-A1D3-3D2F06271EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF7A82B-BD47-439B-A1D3-3D2F06271EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF7A82B-BD47-439B-A1D3-3D2F06271EA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +101,15 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{25D6C1C3-DAFA-4CE6-8652-39D9725F407F} = {22A29252-9F9E-4EEA-8718-3BDED9A44044}
 		{6EDE0BB1-D914-4BF7-B63C-BF815F433E71} = {AFB8254A-4146-4393-AC89-756C1B21E71A}
+		{ECE3D119-1261-4395-A643-A1D60D4E0367} = {22A29252-9F9E-4EEA-8718-3BDED9A44044}
+		{D1169ACE-8463-4DD6-AEE1-7E7D686A1BEB} = {22A29252-9F9E-4EEA-8718-3BDED9A44044}
+		{3B913BB5-A15C-43F9-8DD3-581D833E0BC1} = {22A29252-9F9E-4EEA-8718-3BDED9A44044}
+		{C0B1EE32-9A4F-4094-8F2A-F579023A2B58} = {22A29252-9F9E-4EEA-8718-3BDED9A44044}
+		{3C6FC701-1BF2-46BB-92BD-BD5753275A1E} = {AFB8254A-4146-4393-AC89-756C1B21E71A}
+		{7557FAD1-24B2-4A32-8915-F2FEBAEF3A4E} = {AFB8254A-4146-4393-AC89-756C1B21E71A}
+		{F7A6C801-9CA8-4280-98F5-D1158B3642F9} = {AFB8254A-4146-4393-AC89-756C1B21E71A}
+		{14C548B8-04C1-450E-8771-FF9D586E868C} = {AFB8254A-4146-4393-AC89-756C1B21E71A}
+		{BCF7A82B-BD47-439B-A1D3-3D2F06271EA5} = {AFB8254A-4146-4393-AC89-756C1B21E71A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6354910-DEC2-433F-8D76-E81510FDFC17}
