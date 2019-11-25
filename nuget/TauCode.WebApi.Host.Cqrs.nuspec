@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.WebApi.Host.Cqrs</id>
-    <version>4.0-dev-2019-11-24-15-28</version>
+    <version>4.0</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -12,12 +12,12 @@
       CQRS support for TauCode Web API host.
     </description>
     <releaseNotes>
-      Huge refactoring.
+      1. Solutions reorganized.
     </releaseNotes>
     <tags>taucode webapi host cqrs</tags>
     <dependencies>
-      <dependency id="TauCode.Cqrs.Autofac" version="4.0.0-dev-2019-11-24-14-52" />
-      <dependency id="TauCode.WebApi.Host" version="4.0.0-dev-2019-11-24-15-23" />
+      <dependency id="TauCode.Cqrs.Autofac" version="4.0.0" />
+      <dependency id="TauCode.WebApi.Host" version="4.0.0" />
     </dependencies>
   </metadata>
   <files>
