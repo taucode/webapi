@@ -16,7 +16,7 @@
       <dependency id="Microsoft.AspNetCore.TestHost" version="2.2.0" />
       <dependency id="NHibernate" version="5.2.6" />
       <dependency id="NUnit" version="3.12.0" />
-      <dependency id="TauCode.Db.Testing" version="3.1.0-dev-2019-12-18-16-35" />
+      <dependency id="TauCode.Db.Testing" version="3.1.0-dev-2019-12-19-10-50" />
       <dependency id="TauCode.WebApi.Client" version="4.0.0" />
       <dependency id="TauCode.WebApi.Host" version="4.0.0" />
     </dependencies>
