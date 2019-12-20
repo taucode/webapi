@@ -18,10 +18,6 @@
     <dependencies>
       <dependency id="TauCode.Cqrs.Autofac" version="4.0.0" />
       <dependency id="TauCode.WebApi.Host" version="4.0.0" />
-
-      <PackageReference Include="TauCode.Cqrs.Autofac" Version="4.0.0" />
-      <PackageReference Include="TauCode.WebApi.Host" Version="4.0.0.1-dev-2019-12-20-21-05" />
-
     </dependencies>
   </metadata>
   <files>
