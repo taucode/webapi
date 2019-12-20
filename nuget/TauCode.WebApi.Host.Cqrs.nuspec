@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.WebApi.Host.Cqrs</id>
-    <version>4.0</version>
+    <version>4.0.0.1-dev-2019-12-20-21-33</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -16,8 +16,8 @@
     </releaseNotes>
     <tags>taucode webapi host cqrs</tags>
     <dependencies>
-      <dependency id="TauCode.Cqrs.Autofac" version="4.0.0" />
-      <dependency id="TauCode.WebApi.Host" version="4.0.0" />
+      <dependency id="TauCode.Cqrs.Autofac" version="4.0.0.1-dev-2019-12-20-20-48" />
+      <dependency id="TauCode.WebApi.Host" version="4.0.0.1-dev-2019-12-20-21-22" />
     </dependencies>
   </metadata>
   <files>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.WebApi.Testing</id>
-    <version>4.0.0.1-dev-2019-12-19-11-12</version>
+    <version>4.0.0.1-dev-2019-12-20-21-33</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -18,7 +18,7 @@
       <dependency id="NUnit" version="3.12.0" />
       <dependency id="TauCode.Db.Testing" version="3.1.0-dev-2019-12-19-10-50" />
       <dependency id="TauCode.WebApi.Client" version="4.0.0" />
-      <dependency id="TauCode.WebApi.Host" version="4.0.0" />
+      <dependency id="TauCode.WebApi.Host" version="4.0.0.1-dev-2019-12-20-21-22" />
     </dependencies>
   </metadata>
   <files>
