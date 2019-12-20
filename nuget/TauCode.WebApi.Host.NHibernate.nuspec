@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.WebApi.Host.NHibernate</id>
-    <version>4.0.0.1-dev-2019-12-20-21-33</version>
+    <version>4.0.0.1-dev-2019-12-20-22-12</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -19,7 +19,7 @@
       <dependency id="FluentNHibernate" version="2.1.2" />
       <dependency id="Inflector.NetStandard" version="1.2.2" />
       <dependency id="TauCode.Domain.NHibernate" version="4.0.0.1-dev-2019-12-20-15-48" />
-      <dependency id="TauCode.WebApi.Host" version="4.0.0.1-dev-2019-12-20-21-22" />
+      <dependency id="TauCode.WebApi.Host" version="4.0.0.1-dev-2019-12-20-22-09" />
     </dependencies>
   </metadata>
   <files>
