@@ -1,26 +1,25 @@
 ﻿using Newtonsoft.Json;
 using NUnit.Framework;
 
-namespace TauCode.WebApi.Tests
+namespace TauCode.WebApi.Tests;
+
+[TestFixture]
+public class ErrorResponseDtoTest
 {
-    [TestFixture]
-    public class ErrorResponseDtoTest
+    [Test]
+    public void Serialize_NoArguments_SerializesCorrectly()
     {
-        [Test]
-        public void Serialize_NoArguments_SerializesCorrectly()
+        // Arrange
+        var response = new ErrorDto
         {
-            // Arrange
-            var response = new ErrorDto
-            {
-                Code = "some_code",
-                Message = "Some message"
-            };
+            Code = "some_code",
+            Message = "Some message"
+        };
 
-            // Act
-            var json = JsonConvert.SerializeObject(response);
+        // Act
+        var json = JsonConvert.SerializeObject(response);
 
-            // Assert
-            Assert.That(json, Is.EqualTo(@"{""Code"":""some_code"",""Message"":""Some message""}"));
-        }
+        // Assert
+        Assert.That(json, Is.EqualTo(@"{""Code"":""some_code"",""Message"":""Some message""}"));
     }
 }
