@@ -20,7 +20,7 @@ public class ValidationErrorResponseDtoTest
 
         // Act
         var json = JsonConvert.SerializeObject(validationErrorResponse);
-        var deserialized = JsonConvert.DeserializeObject<ValidationErrorDto>(json);
+        var deserialized = JsonConvert.DeserializeObject<ValidationErrorDto>(json)!;
 
         // Assert
         Assert.That(deserialized.Code, Is.EqualTo("ValidationError"));
