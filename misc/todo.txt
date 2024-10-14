@@ -2,10 +2,11 @@
 ==========
     1. Fix order of todos and changelog
 
+2020-10-09
+==========
+x   1. Move IdDto and stuff to TauCode.Domain.
+
 2019-11-25
 ==========
     1. todo-s went to Relase :/ get rid of 'em!
 
-2020-10-09
-==========
-x   1. Move IdDto and stuff to TauCode.Domain.
