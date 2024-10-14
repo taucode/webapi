@@ -5,7 +5,7 @@ public class ValidationErrorDto : ErrorDto
     public const string StandardCode = "ValidationError";
     public const string StandardMessage = "The request is invalid.";
 
-    public static ValidationErrorDto CreateStandard(string message = null)
+    public static ValidationErrorDto CreateStandard(string? message = null)
     {
         return new ValidationErrorDto
         {
