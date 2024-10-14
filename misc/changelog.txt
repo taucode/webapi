@@ -1,52 +1,57 @@
+2024-10-14
+==========
+    1. Resurrected.
+    2. Ported to .NET 8
+
 2023-05-05
 ==========
     1. Trivia.
 
-2019-07-01
+2023-01-23
 ==========
-    1. Ported to .NET Standard.
-
-2019-07-04
-==========
-    1. Added DTO-s for CRUD.
-
-2019-10-20
-==========
-    1. Release v3.0.
-
-2019-10-29
-==========
-    1. Simplified API.
-
-2019-11-25
-==========
-    1. Solutions reorganized.
-
-2020-10-05
-==========
-    1. Vesioning restarted at nuget.org, current release version is 1.3.2.
-
-2020-11-14
-==========
-    1. Huge dev refactoring.
-
-2021-03-01
-==========
-    1. Resurrection.
-
-2021-03-12
-==========
-    1. Got rid of IdDto
-
-2022-07-28
-==========
-    1. Release 1.3.7.
+    1. Winter resurrection - 2023.
 
 2022-08-08
 ==========
     1. Moved to .NET 6.
     2. Released 1.5.0
 
-2023-01-23
+2022-07-28
 ==========
-    1. Winter resurrection - 2023.
+    1. Release 1.3.7.
+
+2021-03-12
+==========
+    1. Got rid of IdDto
+
+2021-03-01
+==========
+    1. Resurrection.
+
+2020-11-14
+==========
+    1. Huge dev refactoring.
+
+2020-10-05
+==========
+    1. Vesioning restarted at nuget.org, current release version is 1.3.2.
+
+2019-11-25
+==========
+    1. Solutions reorganized.
+
+2019-10-29
+==========
+    1. Simplified API.
+
+2019-10-20
+==========
+    1. Release v3.0.
+
+2019-07-04
+==========
+    1. Added DTO-s for CRUD.
+
+2019-07-01
+==========
+    1. Ported to .NET Standard.
